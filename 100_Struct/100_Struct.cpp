@@ -1,5 +1,3 @@
-// 100_Struct.cpp : This file contains the 'main' function. Program execution begins and ends there.
-
 #include <iostream>
 
 using namespace std;
@@ -26,8 +24,9 @@ int main() {
 		getline(cin, mhs[i].nama);
 
 		cout << "Alamat Mahasiswa : " << endl;
+		cout << "\t Nama Desa : ";
+		cin >> mhs[i].alamat.desa;
+		
 
 	}
 }
-
-
