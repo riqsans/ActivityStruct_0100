@@ -37,6 +37,7 @@ int main() {
 		cout << endl;
 		cout << "Data Mahasiswa ke-" << (i + 1) << ":" << endl;
 		cout << "\n NIM : " << mhs[i].nim;
+		cout << "\n Nama : " << mhs[i].nama;
 
 	}
 }   
