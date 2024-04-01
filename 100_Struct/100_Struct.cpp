@@ -1,5 +1,5 @@
 #include <iostream>
-#include <string> // Memasukkan header <string> untuk getline
+#include <string> 
 
 using namespace std;
 
@@ -11,8 +11,8 @@ struct DetailAlamat {
 struct Mahasiswa {
     string nim;
     string nama;
-    DetailAlamat alamat; // Menggunakan DetailAlamat untuk menyimpan alamat
-    string umur; // Menambahkan umur mahasiswa
+    DetailAlamat alamat; 
+    string umur; 
 };
 
 int main() {
@@ -26,12 +26,12 @@ int main() {
 
         cout << "Alamat Mahasiswa : " << endl;
         cout << "\t Nama Desa : ";
-        getline(cin, mhs[i].alamat.desa); // Menggunakan getline untuk input nama desa
+        getline(cin, mhs[i].alamat.desa); 
         cout << "\t Nama Kota : ";
-        getline(cin, mhs[i].alamat.kota); // Menggunakan getline untuk input nama kota
+        getline(cin, mhs[i].alamat.kota);
 
         cout << "Umur Mahasiswa : ";
-        getline(cin, mhs[i].umur); // Meminta umur mahasiswa
+        getline(cin, mhs[i].umur); 
     }
 
     for (int i = 0; i < 3; i++) {
